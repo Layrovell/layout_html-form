@@ -92,26 +92,29 @@
           >
         </div>
       </fieldset>
+
       <fieldset class="info">
         <legend>
           An interesting fact about you!
         </legend>
         <div class="user-info">
           Do you love cats?
-          <input
+          <label for="yes">
+            <input
             type="radio"
-            name="cats"
-            id="cats"
-            value="cats"
-          >
-          <label for="cats">Yes</label>
-          <input
+            name="answer"
+            value="Yes"
+            id="yes">
+            Yes
+          </label>
+          <label for="no">
+            <input
             type="radio"
-            name="cats"
-            id="no"
-            value="cats"
-          >
-          <label for="cats">No</label>
+            name="answer"
+            value="No"
+            id="no">
+            No
+          </label>
         </div>
         <div class="user-info">
           <label for="color">What is your favorite color?</label>
